@@ -32,7 +32,7 @@ function LaunchDetail() {
               {launch.launch_success ? "Success" : "Failure"}
             </Tag>
           </Flex>
-          <Box>
+          <Box mt={2} bg="tomato">
             Rocket:{" "}
             <Link to={`/rockets/${launch.rocket?.rocket_id}`}>
               {launch.rocket.rocket_name}
